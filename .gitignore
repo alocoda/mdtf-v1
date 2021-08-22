@@ -3,3 +3,5 @@ css/*
 
 js/*
 !js/index.js
+
+node_modules/*
