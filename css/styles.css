@@ -1,22 +1,77 @@
-html, body {
-  height: 100%;
-  font-size: 1rem;
+body, html {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  height: 100%;
 }
 
 .gradient {
   background: rgb(0, 97, 242);
   background: linear-gradient(135deg,
-    rgba(0, 97, 242, 1) 0%,
-    rgba(105, 0, 199, 1)100%);
+      rgba(0, 97, 242, 1) 0%,
+      rgba(105, 0, 199, 1)100%);
 }
 
 .page-header {
-  margin-top: 5rem;
+  color: #fff;
   font-size: 1.25rem;
+  line-height: 2.5;
+  margin-top: 5rem;
+}
+
+.features {
   color: #fff;
 }
 
-.page-header p {
-  line-height: 1.75;
+.features ul {
+  list-style-type: none;
+}
+
+.features ul li {
+  background-image: url(../img/icons/check.svg);
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+  padding-left: 2.5rem;
+}
+
+.flyers img {
+  border-radius: 5%;
+  margin-bottom: 1.5rem;
+}
+
+.flyers p {
+  font-size: 0.8rem;
+}
+
+.gallery {
+  background-color: whitesmoke;
+}
+
+.gallery img {
+  border-radius: 5%;
+  max-height: 450px;
+}
+
+.services {
+  color: #fff;
+  line-height: 3;
+}
+
+.services img {
+  border-radius: 5%;
+}
+
+.contact img {
+  border-radius: 5%;
+}
+
+footer {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
